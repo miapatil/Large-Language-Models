@@ -5,8 +5,8 @@ import csv
 import os
 
  #read in leuven and flan data
-leuven_data = pd.read_csv('/mnt/dv/wid/projects3/Rogers-muri-human-ai/mia/data/leuven_data.csv')
-flan_data = pd.read_csv('/mnt/dv/wid/projects3/Rogers-muri-human-ai/mia/data/flan_prompts.csv')
+leuven_data = pd.read_csv('path/to/leuven_data.csv')
+flan_data = pd.read_csv('path/to/flan_prompts.csv')
 
 # Generates true and false examples from leuven data for the FLAN model to answer
 def generate_examples():
